@@ -2,6 +2,7 @@
 !.gitignore
 !PKGBUILD
 !.SRCINFO
+!update_version.sh
 !vault.hcl
 !vault.install
 !vault.service
