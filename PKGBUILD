@@ -16,7 +16,7 @@ source=(
 	'vault.sysusers'
 	'vault.service'
 	'vault.hcl'
-	"LICENSE_${pkgver}::https://raw.githubusercontent.com/hashicorp/vault/main/LICENSE"
+	"LICENSE_${pkgver}::https://raw.githubusercontent.com/hashicorp/vault/v${pkgver}/LICENSE"
 	"https://releases.hashicorp.com/vault/${pkgver}/vault_${pkgver}_linux_amd64.zip"
 )
 sha512sums=('aa56041c53434195dbf544ce9bf18d7bfb530bf65c9b692163621185b0a46035273a4eeda6454ceb93201117f23662e44ac9c88eda3cf12153cdce40df0fde09'
