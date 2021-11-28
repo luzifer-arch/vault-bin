@@ -1,6 +1,5 @@
 *
 !.gitignore
-!LICENSE
 !PKGBUILD
 !.SRCINFO
 !vault.hcl
