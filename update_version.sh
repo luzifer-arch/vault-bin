@@ -6,7 +6,7 @@ PKG=$(awk -F '=' '/pkgname=/{ print $2 }' PKGBUILD)
 
 # Get latest version
 VER=$(
-	curl -sSf "https://lv.luzifer.io/catalog-api/vault/latest.txt?p=version"
+	curl -sSf "https://lv.luzifer.io/v1/catalog/vault/latest/version"
 )
 [[ -n $VER ]] || exit 1
 
