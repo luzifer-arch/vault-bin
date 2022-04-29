@@ -9,7 +9,7 @@ license=('MPL')
 pkgname=vault-bin
 pkgdesc='A tool for managing secrets'
 pkgrel=1
-pkgver=1.10.1
+pkgver=1.8.11
 url='https://vaultproject.io/'
 source=(
 	'vault.tmpfiles'
@@ -24,7 +24,7 @@ sha512sums=('aa56041c53434195dbf544ce9bf18d7bfb530bf65c9b692163621185b0a46035273
             'a97d10208fd99b29cf532c9b5882fe1bbb3faee1d1d706f95a9c379fef461c65a9f16c8530438920024e69871ebd8c7329e6b65025ad65092950bfb74ce393b3'
             '8f8769f2c285f77b10c1f96e43acb233c70509ca657a8113f9d1f13a73ba55de6acdc6984597a4e1da19d6a7748e05f3523461a3b4bce10b9541aa5340400dd6'
             'dd6de68678d972517c135992217f625a3bc728a6495e1f6052df9926cf9cbc212dfa2a612be5a25d7ce5eeeef41e2b12f0d82af6176a6e0ca043b43c622c6347'
-            '078f07bb2dec6bf8c9e40f1e8bab705d2f8d76c68de45a2d90e30b6cb939538f482e6f356b7a23fb8dbacd60f8b8f603c9b8456de145f21c9383ff25dd453dcf')
+            '25da04c5feee075c291dc1aae3ca06db4220b39a459e5977d6518aa7b1aa16c171050780d648ce622e5047e2158e92213bd20043222bd80c9478fcee65d17152')
 
 package() {
 	install -Dm755 vault "${pkgdir}/usr/bin/vault"
