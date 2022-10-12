@@ -1,6 +1,6 @@
 pkgbase = vault-bin
 	pkgdesc = A tool for managing secrets
-	pkgver = 1.11.4
+	pkgver = 1.12.0
 	pkgrel = 1
 	url = https://vaultproject.io/
 	install = vault.install
@@ -13,13 +13,13 @@ pkgbase = vault-bin
 	source = vault.sysusers
 	source = vault.service
 	source = vault.hcl
-	source = LICENSE_1.11.4::https://raw.githubusercontent.com/hashicorp/vault/v1.11.4/LICENSE
-	source = https://releases.hashicorp.com/vault/1.11.4/vault_1.11.4_linux_amd64.zip
+	source = LICENSE_1.12.0::https://raw.githubusercontent.com/hashicorp/vault/v1.12.0/LICENSE
+	source = https://releases.hashicorp.com/vault/1.12.0/vault_1.12.0_linux_amd64.zip
 	sha512sums = aa56041c53434195dbf544ce9bf18d7bfb530bf65c9b692163621185b0a46035273a4eeda6454ceb93201117f23662e44ac9c88eda3cf12153cdce40df0fde09
 	sha512sums = 92616ccf83fa5ca9f8b0d022cf8ceb1f3549e12b66bf21d9f77f3eb26bd75ec1dc36c155948ec987c642067b85fbfc30a9217d6c503d952a402aa5ef63e50928
 	sha512sums = a97d10208fd99b29cf532c9b5882fe1bbb3faee1d1d706f95a9c379fef461c65a9f16c8530438920024e69871ebd8c7329e6b65025ad65092950bfb74ce393b3
 	sha512sums = 8f8769f2c285f77b10c1f96e43acb233c70509ca657a8113f9d1f13a73ba55de6acdc6984597a4e1da19d6a7748e05f3523461a3b4bce10b9541aa5340400dd6
 	sha512sums = dd6de68678d972517c135992217f625a3bc728a6495e1f6052df9926cf9cbc212dfa2a612be5a25d7ce5eeeef41e2b12f0d82af6176a6e0ca043b43c622c6347
-	sha512sums = d2f324053748348d1295389790b40367930e7662898e80a1d9fbbae54af6e550b7646b9091b41e169d2cced3b5bbfdfc5023dcca42bb1659f98ae312b0aca2db
+	sha512sums = 522395971be8c552cb03498c3bb49046e7bafb9ed8b8673da62ddc862c6f8d7be042b1934441fa3f3c32e70e5aaa388295e45bfa22288256d4d3a0d408aaa791
 
 pkgname = vault-bin
